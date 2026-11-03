@@ -11,7 +11,7 @@ import SwiftUI
 struct InsightBoardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView(repository: LiveDashboardRepository())
         }
     }
 }
